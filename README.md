@@ -25,3 +25,8 @@
 
 算法有很多不足的地方，欢迎大家一起改进，提高准确率。</br>
 ps:转自其他作者 原作者已经删除源代码
+此项目为PY3
+mac 上安装py3
+https://www.cnblogs.com/i-am-lvjiazhen/p/6264354.html
+安装模块
+pip3 install 模块名

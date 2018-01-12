@@ -1,4 +1,4 @@
-# coding: utf-8
+# -*- coding: utf-8 -*-
 import time
 import json
 import requests
@@ -48,8 +48,7 @@ def search_keyword(qusetion, answers):
 
 def get_question():
     resp = requests.get('http://htpmsg.jiecaojingxuan.com/msg/current', timeout=4).text
-    #resp = requests.get('http://localhost:8000/Desktop/666666/sample.json',
-    #                    ).text
+    #resp = requests.get('http://localhost:8000/Desktop/666666/sample.json').text
     resp_dict = json.loads(resp)
     if resp_dict['msg'] == 'no data':
         print('................................')
